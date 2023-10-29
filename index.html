@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do Lists</title>
+</head>
+<body>
+<h1>To-Do Lists</h1>
+<div id="lists-container" class="container">
+    <div class="list-container">
+        <h2 contenteditable="true">to-do list 1</h2>
+        <div class="task-list">
+            <div class="task">
+                <input type="checkbox" class="checkbox">
+                <span contenteditable="true">task 1</span>
+                <button class="remove-task">Remove</button>
+            </div>
+        </div>
+        <button class="add-task">Add Task</button>
+        <button class="set-alarm">Set Alarm</button>
+    </div>
+
+    <button id="add-list-button">Add New List</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
